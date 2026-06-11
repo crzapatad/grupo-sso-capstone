@@ -42,8 +42,10 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 - 
 
 ### Frontend
+Página web
 ![Pantalla de Login](images/stack3.png)
-- 
+App Movil
+![Pantalla de Login](images/stack4.png) 
 - 
 
 ### Base de Datos
