@@ -8,7 +8,7 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 ### Módulos Funcionales <describir todos los módulos que componen la solución>
 
 
-- - **Reporte de Peligros de Seguridad**: Los trabajadores pueden reportar actos inseguros y condiciones inseguras mediante fotografías, ubicación geográfica y descripciones detalladas.
+- **Reporte de Peligros de Seguridad**: Los trabajadores pueden reportar actos inseguros y condiciones inseguras mediante fotografías, ubicación geográfica y descripciones detalladas.
 
 - **Seguimiento de Estado en Tiempo Real**: Permite monitorear el estado de un reporte durante todo su ciclo de vida (enviado → en revisión → acción asignada → cerrado).
 
