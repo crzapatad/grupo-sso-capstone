@@ -35,7 +35,7 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 
 
 ### Backend
-![Pantalla de Login](images/Captura de pantalla 2026-06-10 215057.png)
+![Pantalla de Login](images/stack2.png)
 - 
 - 
 - 
