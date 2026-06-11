@@ -7,10 +7,18 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 
 ### Módulos Funcionales <describir todos los módulos que componen la solución>
 
-- **Módulo 1: <Aplicacion Web**: <describir brevemente la función del módulo>
-- **Módulo 2: <nAplicacion Movil**: <describir brevemente la función del módulo>
-- **Módulo 3: <nombre del módulo**: <describir brevemente la función del módulo>
-- **Módulo 4: <nombre del módulo**: <describir brevemente la función del módulo>
+
+- - **Reporte de Peligros de Seguridad**: Los trabajadores pueden reportar actos inseguros y condiciones inseguras mediante fotografías, ubicación geográfica y descripciones detalladas.
+
+- **Seguimiento de Estado en Tiempo Real**: Permite monitorear el estado de un reporte durante todo su ciclo de vida (enviado → en revisión → acción asignada → cerrado).
+
+- **Monitoreo de SLA**: Indicadores visuales que muestran si los reportes están dentro del plazo, en riesgo de incumplimiento o vencidos.
+
+- **Estadísticas Personales de Seguridad**: Permite visualizar tasas de efectividad, rachas de participación y métricas relacionadas con el reporte de Incidentes y Actos Peligrosos (IAP).
+
+- **Notificaciones**: Los usuarios reciben alertas en tiempo real sobre cambios en el estado de sus reportes y avisos de seguridad específicos de su área de trabajo.
+
+- **Soporte Offline**: Los reportes se almacenan localmente cuando no hay conexión a Internet y se sincronizan automáticamente una vez que se restablece la conectividad.
 
 ### Funcionalidades Adicionales
 
