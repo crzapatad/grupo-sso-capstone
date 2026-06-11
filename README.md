@@ -22,9 +22,14 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 
 ### Funcionalidades Adicionales
 
-- <Ejemplo de una funcionalidad adicional podría ser> Autenticación JWT con recuperación de contraseña
-- <Ejemplo de una funcionalidad adicional podría ser>Sistema de roles y permisos (Administrador y Consultor)
-- <Ejemplo de una funcionalidad adicional podría ser>Gestión de clientes y contactos
+### Funcionalidades Avanzadas
+
+- **Integración con IAP**: Gestión especializada para reportes de IAP (Incidentes y Actos Peligrosos u Oportunidades de Mejora, según la definición de la organización).
+- **Acciones Correctivas**: Permite asignar, monitorear y dar seguimiento a acciones correctivas, incluyendo fechas límite y estado de cumplimiento.
+- **Comentarios y Discusión**: Facilita la colaboración entre los miembros del equipo mediante comentarios asociados a cada reporte.
+- **Clasificación Jerárquica de Reportes**: Los reportes pueden clasificarse como actos inseguros o condiciones inseguras para mejorar su análisis y tratamiento.
+- **Soporte para Múltiples Turnos**: Permite registrar incidentes y observaciones correspondientes a turnos de mañana, tarde o noche.
+- **Tema Industrial Oscuro**: Interfaz diseñada específicamente con una temática oscura y acentos en color naranja de seguridad, optimizando la visibilidad y la experiencia de uso en entornos industriales.
 
 
 ## Stack Tecnológico <detallar el stack tecnológico utilizado>
