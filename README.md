@@ -1,4 +1,4 @@
-# Sistema de "acá va el nombre del proyecto"
+# Sistema de SSO para Gestión de riesgos en plantas industriales
 
 Sistema  integral para la gestión <describir en pocas líneas que problemática resolverá el proyecto>
 
