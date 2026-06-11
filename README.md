@@ -22,8 +22,6 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 
 ### Funcionalidades Adicionales
 
-### Funcionalidades Avanzadas
-
 - **Integración con IAP**: Gestión especializada para reportes de IAP (Incidentes y Actos Peligrosos u Oportunidades de Mejora, según la definición de la organización).
 - **Acciones Correctivas**: Permite asignar, monitorear y dar seguimiento a acciones correctivas, incluyendo fechas límite y estado de cumplimiento.
 - **Comentarios y Discusión**: Facilita la colaboración entre los miembros del equipo mediante comentarios asociados a cada reporte.
