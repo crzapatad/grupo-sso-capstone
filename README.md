@@ -51,20 +51,31 @@ El proyecto consiste en la creación de un sistema  integral para la gestión de
 
 
 ### Base de Datos
-- 
-- 
-- 
+- La solución propuesta utiliza Cloud Firestore como sistema de gestión de bases de datos. Firestore es una base de datos NoSQL orientada a documentos que forma parte del ecosistema de Google Cloud Platform (GCP). Su adopción responde a la necesidad de contar con una plataforma altamente escalable, capaz de soportar grandes volúmenes de reportes de seguridad, actualizaciones en tiempo real y una arquitectura basada en servicios desacoplados.
+
+Una de las principales ventajas de Firestore es su capacidad de escalamiento horizontal automático, permitiendo aumentar la capacidad del sistema sin requerir configuraciones manuales de infraestructura. Esto resulta especialmente relevante para una aplicación de gestión de riesgos laborales, donde el volumen de reportes puede variar significativamente según la cantidad de empresas, faenas y usuarios conectados.
+
+Adicionalmente, Firestore ofrece integración nativa con servicios de Google Cloud, simplificando los mecanismos de autenticación y autorización mediante cuentas de servicio utilizadas por los microservicios desplegados en Cloud Run. Asimismo, dispone de soporte para operaciones asíncronas a través del SDK oficial de Python, facilitando su integración con servicios desarrollados en FastAPI y ejecutados mediante Uvicorn.
+
+La plataforma también incorpora capacidades de sincronización en tiempo real mediante listeners, permitiendo que los cambios en los reportes, alertas o acciones correctivas se reflejen instantáneamente en las interfaces de usuario sin necesidad de consultas periódicas al servidor.
+
 
 ## Modelos de Datos
 
-El sistema incluye **## modelos** que cubren:
+La estructura de Firestore se organiza utilizando un esquema jerárquico basado en colecciones y subcolecciones. En el nivel superior se encuentra la colección clients, donde cada documento representa una organización cliente del sistema. Este enfoque permite implementar un modelo multi-tenant, asegurando la separación lógica de los datos entre distintas empresas.
 
-- 
-- 
-- 
-- 
-- 
-- 
+Dentro de cada cliente se almacenan diversas subcolecciones que representan las entidades funcionales del sistema:
+
+users: contiene la información de los usuarios registrados, incluyendo nombre, correo electrónico, rol, áreas asignadas y estado.
+zones: almacena información de las zonas o áreas de trabajo, incluyendo procesos asociados, colores de visualización y coordenadas utilizadas para representar polígonos en mapas de planta.
+reports: registra los reportes de riesgos, actos inseguros, condiciones inseguras e IAP, junto con información sobre responsables, fotografías, turnos y estado del reporte.
+report_events: mantiene un historial completo de cambios de estado, implementando un enfoque de auditoría basado en eventos.
+actions: almacena las acciones correctivas derivadas de los reportes, incluyendo responsables, fechas de vencimiento y estado de cumplimiento.
+comments: permite registrar conversaciones y comentarios asociados a cada reporte.
+alerts: administra las notificaciones y alertas generadas por el sistema.
+exports: conserva el historial de exportaciones de información y reportes generados por los usuarios.
+
+Este diseño favorece la organización lógica de los datos, reduce la complejidad de las consultas y facilita la escalabilidad de la plataforma.
 
 
 ## Seguridad <describir las medidas y tecnologías de seguridad utilizadas, abajo ejemplos>
@@ -78,11 +89,11 @@ El sistema incluye **## modelos** que cubren:
 
 ## Integrantes
 
-**CAPSTONE_001D - Grupo #**
+**CAPSTONE_001D - Grupo 1**
 
-- 
-- 
-- * 
+- Sean Parker
+- Tomás Figueroa
+- Cristóbal Zapata
 
 ## Documentación Adicional <especificar la documentación adicional que se incorpora, abajo son ejemplos>
 
