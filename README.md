@@ -32,8 +32,10 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 
 ## Stack Tecnológico <detallar el stack tecnológico utilizado>
 
+
+
 ### Backend
-- 
+![Pantalla de Login](images/stack.png)
 - 
 - 
 - 
