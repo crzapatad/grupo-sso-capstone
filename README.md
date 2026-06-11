@@ -7,8 +7,8 @@ Sistema  integral para la gestión de riesgos en plantas industriales. Para cont
 
 ### Módulos Funcionales <describir todos los módulos que componen la solución>
 
-- **Módulo 1: <nombre del módulo**: <describir brevemente la función del módulo>
-- **Módulo 2: <nombre del módulo**: <describir brevemente la función del módulo>
+- **Módulo 1: <Aplicacion Web**: <describir brevemente la función del módulo>
+- **Módulo 2: <nAplicacion Movil**: <describir brevemente la función del módulo>
 - **Módulo 3: <nombre del módulo**: <describir brevemente la función del módulo>
 - **Módulo 4: <nombre del módulo**: <describir brevemente la función del módulo>
 
