@@ -32,7 +32,7 @@ El proyecto consiste en la creación de un sistema  integral para la gestión de
 - **Tema Industrial Oscuro**: Interfaz diseñada específicamente con una temática oscura y acentos en color naranja de seguridad, optimizando la visibilidad y la experiencia de uso en entornos industriales.
 
 
-## Stack Tecnológico <detallar el stack tecnológico utilizado>
+## Stack Tecnológico
 
 
 
@@ -131,9 +131,9 @@ La combinación de cifrado de comunicaciones, autenticación basada en identidad
 - **ERS**
 - **Diagrama de Clases**
 - **Modelo de Datos**
-- **Carta Gantt**
+- [Carta Gantt](https://docs.google.com/spreadsheets/d/1WdQG8cgWP_Q8y35ntlekh_Nq8pTK4AdS/edit?gid=1137986524#gid=1137986524)
 
-## Arquitectura <especificar la arquitectura de la solución, abajo son ejemplos>
+## Arquitectura
 
 El sistema sigue una **arquitectura en capas**:
 
