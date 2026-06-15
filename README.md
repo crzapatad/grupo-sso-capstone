@@ -282,29 +282,26 @@ Las principales fases del desarrollo fueron las siguientes:
 
 Se identificaron las necesidades del sistema de gestión de riesgos SSO, definiendo los objetivos del proyecto, los usuarios involucrados, las funcionalidades esperadas y el alcance de la solución. Asimismo, se establecieron las historias de usuario y los requerimientos funcionales y no funcionales que guiarían el desarrollo.
 
-Fase 2: Diseño de la Solución
+**Fase 2: Diseño de la Solución**
 
 Se diseñó la arquitectura general del sistema, definiendo las tecnologías a utilizar, la estructura de microservicios, el modelo de datos y los prototipos de interfaz (wireframes). También se establecieron los mecanismos de autenticación, seguridad y comunicación entre componentes.
 
-Fase 3: Desarrollo Iterativo
+**Fase 3: Desarrollo Iterativo**
 
 Las funcionalidades fueron implementadas de manera incremental mediante iteraciones cortas. Durante esta etapa se desarrollaron los componentes del frontend, los servicios backend, la integración con la base de datos y las diferentes funcionalidades del sistema, tales como el registro de riesgos, la gestión de incidentes, las alertas y los paneles de visualización.
 
-Fase 4: Integración y Pruebas
+**Fase 4: Integración y Pruebas**
 
 Una vez desarrollados los distintos componentes, se realizaron pruebas funcionales para verificar el correcto funcionamiento de la aplicación. Se validaron los flujos principales del sistema, la comunicación entre servicios, la persistencia de datos y la experiencia de usuario tanto en la aplicación web como móvil.
 
-Fase 5: Despliegue y Documentación
+**Fase 5: Despliegue y Documentación**
 
 Finalmente, se preparó la solución para su despliegue en el entorno definido, se elaboró la documentación técnica correspondiente y se consolidaron los entregables del proyecto. Esta etapa incluyó la generación de manuales, especificaciones del stack tecnológico y la preparación del repositorio para su presentación final.
 
-Sin embargo, hay un detalle importante. Por lo que hemos conversado en las últimas semanas, ustedes no desarrollaron realmente los microservicios en Google Cloud ni desplegaron Firestore; más bien diseñaron la arquitectura propuesta y desarrollaron un prototipo funcional del sistema. Por eso, si el profesor evalúa la coherencia entre lo implementado y lo documentado, convendría ajustar la redacción para dejar claro qué fue efectivamente desarrollado y qué corresponde al diseño arquitectónico propuesto.
-
-Mi recomendación sería usar la metodología ágil anterior, pero indicando que el proyecto contempló tanto el diseño arquitectónico de una solución escalable futura como el desarrollo de un prototipo funcional para validar la propuesta. Eso hará que el informe sea mucho más consistente con lo que realmente realizaron.
 
 ## Licencia
 
-Este proyecto fue desarrollado como parte del proyecto APT (Aplicación de Proyecto Tecnológico) para <nombre de la empresa>.
+Este proyecto fue desarrollado como parte del proyecto APT (Aplicación de Proyecto Tecnológico) para Alloxentric.
 
-**Versión**: #####  
-**Última actualización**: ########
+**Versión**: 1.0
+**Última actualización**: 14-06-2026
